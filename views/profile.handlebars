@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Create a New Task:</h3>
+
+    <form class="form new-Task-form">
+      <div class="form-group">
+        <label for="Task-name">Task Name:</label>
+        <input class="form-input" type="text" id="task-name" name="Task-name" />
+      </div>
+      <div class="form-group">
+        <label for="Task-Description">Description:</label>
+        <input class="form-input" type="text" id="task-desc" name="Task-Description" />
+      </div>
+      <div class="form-group">
+        <label for="starting_time">Start Time:</label>
+        <input class="form-input" type="text" id="starting_time" name="starting_time" />
+      </div>
+      <div class="form-group">
+        <label for="ending_time">End Time:</label>
+        <input class="form-input" type="text" id="ending_time" name="ending_time" />
+      </div>
+      {{!-- <div class="form-group">
+        <label for="Task-desc">Budget:</label>
+        <textarea class="form-input" type="number" id="Task-desc" name="Task-desc"></textarea>
+      </div> --}}
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/profile.js"></script>

@@ -1,0 +1,13 @@
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h2>
+      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      {{task.title}}
+    </h2>
+    <p>{{task.description}}</p>
+    <p>{{task.starting_time}}</p>
+    <p>{{task.ending_time}}</p>
+  </div>
+       <button class="del-task btn btn-sm btn-danger" data-id="{{task.id}}">DELETE</button>
+</div>
+<script src="/js/task.js"></script> 
