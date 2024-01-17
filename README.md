@@ -79,5 +79,5 @@ Looking ahead, our vision for "Order of the Day" includes expanding its capabili
 
 ## Links
 
-- **Deployed Application:** [https://serene-journey-98966-ef4d4e7d5bd1.herokuapp.com/]
+- **Deployed Application:** [https://order-of-the-day-6ceb800db4ee.herokuapp.com/]
 - **GitHub Repository:** [https://github.com/Steelerforreel/Order-of-the-day/tree/main]
